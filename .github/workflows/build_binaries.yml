@@ -1,16 +1,16 @@
 name: Build binary distributions
 
 on:
-  push:
-    branches:
-      - develop
-      - main
-      - "feature/**"
-    tags:
-      - "*"
-  release:
-    types:
-      - published
+  # push:
+  #   branches:
+  #     - develop
+  #     - main
+  #     - "feature/**"
+  #   tags:
+  #     - "*"
+  # release:
+  #   types:
+  #     - published
   workflow_dispatch:
 
 jobs:
